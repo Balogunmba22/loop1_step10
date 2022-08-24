@@ -45,7 +45,7 @@ input[placeholder] {
 }
 
 .about {
-    padding: 0 14rem;
+    padding: 0 12rem;
     display: grid;
     grid-template-columns: 90% 1fr;
     align-items: center;
@@ -65,7 +65,7 @@ input[placeholder] {
     border-left: 2px solid #000;
     height: max-content;
     font-size: 14px;
-    color:rgba(0, 0, 0, 0.6);
+    color:rgba(0, 0, 0, 0.4);
     padding: 0 2rem;
     margin-top: 3rem;
 }
@@ -80,14 +80,14 @@ input[placeholder] {
 }
 
 .offers {
-    padding: 2rem 14rem;
+    padding: 2rem 12rem;
 }
 .activities {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
 .activity p {
-    font-size: 0.85rem;
+    font-size: 0.7rem;
     margin-top: 2.5rem;
     line-height: 1.5rem;
 }
@@ -118,18 +118,18 @@ input[placeholder] {
 .nike {
     margin-top: 3rem;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    gap: 2rem;
 }
 .nike img {
-    width: 24rem;
+    width: 20rem;
 }
 #services {
     background: url(/media/runners.jpg);
     background-size: cover;
     height: 100vh;
     max-width: 100%;
-    padding: 12rem 0;
+    padding: 4rem 0;
 }
 .runners-img {
     color: white;
